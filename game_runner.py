@@ -7,6 +7,7 @@ from config import *
 # Ensure your file is named [TEAM NAME].py and class is [TEAM NAME] (uppercase).
 # Example: from TEAM_EXCALIBUR import TEAM_EXCALIBUR
 # ==============================================================================
+from HIRANI_KALPESH_SHAH import HIRANI_KALPESH_SHAH
 
 PIECE_SYMBOLS = {
     'wP': '♟', 'bP': '♙', 'wN': '♞', 'bN': '♘',
@@ -163,5 +164,5 @@ def run_game(white_player_type, black_player_type, total_time_seconds=60):
 
 if __name__ == "__main__":
     # Replace these with your actual class references
-    # run_game(white_player_type=YOUR_CLASS_HERE, black_player_type=OPPONENT_CLASS_HERE)
+    run_game(white_player_type=HIRANI_KALPESH_SHAH, black_player_type=HIRANI_KALPESH_SHAH)
     print("Template ready. Please set AI classes in the __main__ block.")
